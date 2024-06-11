@@ -1,1 +1,12 @@
-<h1> Welcome to the Home page</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+    <h1>Welcome to the Home Page</h1>
+    <form action="{{ url_for('predict_datapoint') }}">
+        <button type="submit">Predict Your score</button>
+    </form>
+</body>
